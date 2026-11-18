@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: print git version
+        run: git --version
       - name: Say hello
         run: echo "Hello, GitHub Actions!"
       - name: Show runner information
